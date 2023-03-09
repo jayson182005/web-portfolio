@@ -1,123 +1,123 @@
-#main-content {
-  height: 900px;
-  background-color: #FAF6E9 ;
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+} 
+
+ .hero-banner {
+  height: 800px;
 }
 
-.navbar {
-  background: #E5BDB2;
-}
 .socmed-container ul {
-    display: flex;
-    position: absolute;
-  }
-  
-  .socmed-container{
-    background-color: #111;
-    height: 90px;
-  }
-  .socmed-container ul li {
-    list-style: none;
-  }
- .navbar-item {
- accent-color: #1A6446;
+  display: flex;
+  position: absolute;
 }
-  .socmed-container ul li a {
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    text-align: center;
-    line-height: 35px;
-    font-size: 20px;
-    margin: 0 10px;
-    display: block;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-    border: 3px solid #fff;
-    z-index: 1;
-  }
 
-.name {
-  font-family: 'Times New Roman', Times, serif;
-  color: #1A6446;
+.socmed-container{
+  background-color: #111;
+  height: 90px;
 }
-    
-  .socmed-container ul li a .icon {
-    position: relative;
-    color: #262626;
-    transition: .5s;
-    z-index: 3;
-  }
+.socmed-container ul li {
+  list-style: none;
+}
+.navbar-item {
+accent-color: #1A6446;
+}
+.socmed-container ul li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
 
+.socmed-container ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
 
-  .socmed-container ul li a:hover .icon {
-    color: #fff;
-    transform: rotateY(360deg);
-  }
-  
-  .socmed-container ul li a:before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #f00;
-    transition: .5s;
-    z-index: 2;
-  }
-  
-  .socmed-container ul li a:hover:before {
-    top: 0;
-  }
-  
-  .socmed-container ul li:nth-child(1) a:before{
-    background: #3b5999;
-  }
-  
-  .socmed-container ul li:nth-child(2) a:before{
-    background: #55acee;
-  }
-  
-  .socmed-container ul li:nth-child(3) a:before {
-    background: #0077b5;
-  }
-  
-  .socmed-container ul li:nth-child(4) a:before {
-    background: #dd4b39;
-  }
+.socmed-container ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
 
-  body{
-    background: rgba(218,218,218,1)
-  }
-  
-  a{
-    color: #111
-  }
-  
-  .photo{
-    position: absolute;
-    top: 40%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    display: block;
-  }
-  
+.socmed-container ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+.socmed-container ul li a:hover:before {
+  top: 0;
+}
+
+.socmed-container ul li:nth-child(1) a:before{
+  background: #3b5999;
+}
+
+.socmed-container ul li:nth-child(2) a:before{
+  background: #55acee;
+}
+
+.socmed-container ul li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+.socmed-container ul li:nth-child(4) a:before {
+  background: #dd4b39;
+}
+
+body{
+  background: rgba(218,218,218,1)
+}
+
+a{
+  color: #111
+}
+
+.about-container1 {
+height: 800px;
+width: 200px;
+background-color: #91f0ca;
+margin-top: 40%;;
+left: 80%;
+}
+
+.about-container2 {
+height: 800px;
+width: 200px;
+background-color: #f1be2f;
+margin-top: 40%;;
+left: 80%;
+
+}
+
   .photo img{
-    width: 200px;
-    height: 280px;
     object-fit: cover;
     filter: grayscale(100%) contrast(120%);
-    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    box-shadow: 10px 15px 25px 0 rgba(16, 114, 3, 0.2);
     display: block;
     transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
     margin-top: -10px;
   }
-  
   .photo:hover img{
-    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+    box-shadow: 1px 1px 10px 0 rgba(173, 240, 167, 0.1);
   }
-  
   .photo .glow-wrap{
     overflow: hidden;
     position: absolute;
@@ -126,7 +126,6 @@
     top: 0;
     margin-top: -10px;
   }
-  
   .photo .glow{
     display: block;
     position:absolute;
@@ -138,23 +137,19 @@
     transform: rotate(45deg) translate(-450%, 0);
     transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
-  
   .photo:hover .glow{
     transform: rotate(45deg) translate(450%, 0);
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
-  
   .photo:hover img,
   .photo:hover .glow-wrap{
     margin-top: 0;
   }
-  
-  h1{
+  .name{
     position: absolute;
     z-index: 1;
-    transform: translate(-25%, -65%);
-    font-family: 'Montserrat', sans-serif;
+    transform: translate(-25%, -155%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     line-height: 1.2;
   }
-  
