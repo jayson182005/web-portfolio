@@ -1,16 +1,26 @@
+#main-content {
+  height: 900px;
+  background-color: #FAF6E9 ;
+}
 
+.navbar {
+  background: #E5BDB2;
+}
 .socmed-container ul {
     display: flex;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
   
+  .socmed-container{
+    background-color: #111;
+    height: 90px;
+  }
   .socmed-container ul li {
     list-style: none;
   }
-
+ .navbar-item {
+ accent-color: #1A6446;
+}
   .socmed-container ul li a {
     width: 40px;
     height: 40px;
@@ -27,6 +37,10 @@
     z-index: 1;
   }
 
+.name {
+  font-family: 'Times New Roman', Times, serif;
+  color: #1A6446;
+}
     
   .socmed-container ul li a .icon {
     position: relative;
@@ -83,8 +97,8 @@
   
   .photo{
     position: absolute;
-    top: 30%;
-    left: 10%;
+    top: 40%;
+    left: 20%;
     transform: translate(-50%, -50%);
     display: block;
   }
