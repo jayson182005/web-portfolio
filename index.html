@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
 </head>
   <body class="container-fliud">
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top ">
         <div class="container d-flex navbar-dark">
           <p class="navbar-brand mx-auto">PORTFOLIO</p>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,10 +18,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,32 +37,31 @@
             </ul>
           </div>
         </div>
-      </nav>
-      <div class="container-fluid bg-dark hero-banner expanded-lg hero-banner">
-        <article class="container bg-secondary article-container ">
-          <div class="d-flex flex-wrap justify-content-evenly item-conten ">
-            
-            <div class="card d-flex justify-content-evenly bg-secondary p-5" style="width: 35rem; margin: 50px;">
+    </nav>
+
+    <!-- Hero Banner -->
+    <div class="container-fluid bg-dark hero-banner expanded-lg hero-banner">
+      <article class="container bg-secondary article-container card">
+        <div class="d-flex flex-wrap justify-content-evenly item-conten">
+          <div class="card d-flex justify-content-evenly bg-secondary p-5" style="width: 35rem; margin: 50px;">
             <h1>Full-stack Web Developer</h1>
-              <p>As a full-stack web developer, I am proficient in both front-end and back-end technologies. With a strong foundation in HTML, CSS, JavaScript, and various web frameworks, I am capable of building dynamic and responsive web applications. My experience also includes database management, API integration, and deployment on cloud platforms.</p>
-              <div class="d-flex justify-content-evenly">
-                <button type="button" class="btn btn-warning" style="width: 10rem;">Hire Me!</button>
-                <button type="button" class="btn btn-warning" style="width: 10rem;">Download CV</button>
-              </div>
+            <p>As a full-stack web developer, I am proficient in both front-end and back-end technologies. With a strong foundation in HTML, CSS, JavaScript, and various web frameworks, I am capable of building dynamic and responsive web applications. My experience also includes database management, API integration, and deployment on cloud platforms.</p>
+            <div class="d-flex justify-content-evenly">
+              <button type="button" class="btn btn-warning" style="width: 10rem;">Hire Me!</button>
+              <button type="button" class="btn btn-warning" style="width: 10rem;">Download CV</button>
             </div>
-
-
-            <div class="card d-flex justify-content-evenly photo bg-secondary" style="width: 18rem; margin: 50px;">
-              <h1 class="name">JAYSON HERRERA</h1>
-              <img src="resources/profile-img.jpg" alt="" style="border-radius: 20%;">
-              <div class="glow-wrap">
-                <i class="glow"></i>
-              </div>
+          </div>
+          <div class="card d-flex justify-content-evenly photo bg-secondary img-fluid" style="width: 18rem; margin: 60px;">
+            <h1 class="name">JAYSON HERRERA</h1>
+            <img src="resources/profile-img.jpg" alt="" style="border-radius: 20%;">
+            <div class="glow-wrap">
+              <i class="glow"></i>
             </div>
-
-          </div>  
-        </article>
+          </div>
+        </div>  
+      </article>
     </div>
+
       <footer class="socmed-container bg-body-dark d-flex justify-content-center p-4">
         <ul>
             <li>

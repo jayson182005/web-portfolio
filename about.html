@@ -8,57 +8,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
 </head>
-  <body class="container-fluid">
-    <nav class="navbar navbar-expand-lg header-content d-flex justify-content-end p-2">
-          <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <body class="container-fliud">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container d-flex navbar-dark">
+          <p class="navbar-brand mx-auto">PORTFOLIO</p>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html" target="_self">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Work Experience
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Work
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
-    </nav>
-<main class="container-fluid d-flex" id="main-content">
+        </div>
+      </nav>
+          <!-- Projects -->
+      <div class="container-fluid bg-dark expanded-lg prj-content ">
+        <article class="container bg-secondary card">
+          <div class="d-flex justify-content-center row">
+            <h1>My Projects</h1>
+            <div class="d-flex bg-secondary justify-content-center flex-wrap col-3" style=" width: 350px; margin: 40px;"> <h4>FOOD BLOG</h4><img src="resources/food-blog.PNG" class=" card-img  prj-img" alt=""></div>
+            <div class="d-flex bg-secondary justify-content-center flex-wrap col-3" style="width: 350px; margin: 40px;"> <h4>ECOMMERS WEBSITE</h4><img src="resources/street-store.PNG" class=" card-img prj-img" alt=""></div>
+            <div class="d-flex bg-secondary justify-content-center flex-wrap col-3" style="width: 350px; margin: 40px;"> <h4>TRAVEL BLOG</h4><img src="resources/travel-blog.PNG" class=" card-img prj-img" alt=""></div>
 
-    <div class="container-fluid class">
-        <a href="#" class="photo">
-            <h2 class="name">JAYSON HERRERA</h2>
-              <img src="resources/profile-img.jpg" style="height: 280px;"/>
-            <div class="glow-wrap">
-              <i class="glow"></i>
             </div>
-        </a>
+          </div>     
+        </article>
     </div>
-    <p>Joining a bootcamp on full-stack programming is an exciting opportunity for anyone looking to gain comprehensive knowledge and practical skills in web development. As a participant in this course, my primary goal is to learn the latest technologies, tools, and frameworks used in building web applications, including front-end, back-end, and database development.
-
-        I hope to gain a deep understanding of the principles of full-stack programming and how they can be applied to create functional and user-friendly websites. By the end of the course, I want to be able to develop and deploy a complete web application from scratch, using various programming languages and tools.
-        
-        Another essential goal is to build a robust portfolio of web development projects that showcase my skills and expertise. These projects can be used to demonstrate my abilities to potential employers and clients, opening up numerous career opportunities in the field of web development.
-        
-        Furthermore, I hope to connect with other like-minded individuals in the bootcamp, exchange knowledge, and collaborate on group projects. Learning from experienced instructors and working with peers in a supportive environment will accelerate my learning curve and enhance my problem-solving and collaboration skills.
-        
-        In conclusion, my ultimate goal in joining a bootcamp on full-stack programming is to become a competent and confident full-stack developer capable of creating scalable and efficient web applications that meet the needs of clients and users.</p>
-       
-
-</main>
-    <footer class="socmed-container bg-body-dark d-flex justify-content-center p-4">
+      <footer class="socmed-container bg-body-dark d-flex justify-content-center p-4">
         <ul>
             <li>
               <a href="#">
@@ -73,6 +66,10 @@
               <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
           </ul>
     </footer>
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>

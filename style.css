@@ -4,7 +4,8 @@
 } 
 
  .hero-banner {
-  height: 800px;
+  padding-top: 200px;
+  height: 850px;
 }
 
 .socmed-container ul {
@@ -90,22 +91,6 @@ a{
   color: #111
 }
 
-.about-container1 {
-height: 800px;
-width: 200px;
-background-color: #91f0ca;
-margin-top: 40%;;
-left: 80%;
-}
-
-.about-container2 {
-height: 800px;
-width: 200px;
-background-color: #f1be2f;
-margin-top: 40%;;
-left: 80%;
-
-}
 
   .photo img{
     object-fit: cover;
@@ -153,3 +138,12 @@ left: 80%;
     margin: 0;
     line-height: 1.2;
   }
+.prj-img {
+  height: 200px;
+  width: 250px;
+}
+
+.prj-content {
+  padding-top: 200px;
+  height: 850px;
+}
