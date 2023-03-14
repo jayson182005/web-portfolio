@@ -4,8 +4,14 @@
 } 
 
  .hero-banner {
-  padding-top: 200px;
-  height: 850px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+aside {
+  width: 30%;
+  float: right;
+
 }
 
 .socmed-container ul {
@@ -20,9 +26,7 @@
 .socmed-container ul li {
   list-style: none;
 }
-.navbar-item {
-accent-color: #1A6446;
-}
+
 .socmed-container ul li a {
   width: 40px;
   height: 40px;
@@ -94,8 +98,8 @@ a{
 
   .photo img{
     object-fit: cover;
-    filter: grayscale(100%) contrast(120%);
-    box-shadow: 10px 15px 25px 0 rgba(16, 114, 3, 0.2);
+    filter: grayscale(10%) contrast(120%);
+    box-shadow: 10px 15px 25px 0 rgba(241, 218, 6, 0.2);
     display: block;
     transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
     margin-top: -10px;
@@ -146,4 +150,14 @@ a{
 .prj-content {
   padding-top: 200px;
   height: 850px;
+}
+
+.prj-img:hover {
+  transform: scale(1.5); 
+}
+
+@media screen and (max-width: 990px) {
+  .name{
+    transform: translate(0%, -455%);
+  }
 }
