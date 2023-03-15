@@ -8,8 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
 </head>
-  <body class="container-fliud">
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+  <body class="container-fliud ">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top ">
         <div class="container d-flex navbar-dark">
           <p class="navbar-brand mx-auto">PORTFOLIO</p>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,10 +18,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link active" href="about.html">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -29,7 +29,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#"></a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item " href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
@@ -37,38 +37,83 @@
             </ul>
           </div>
         </div>
-      </nav>
-          <!-- Projects -->
-      <div class="container-fluid bg-dark expanded-lg prj-content ">
-        <article class="container bg-secondary card">
-          <div class="d-flex justify-content-center row pb-5">
-            <h1>My Projects</h1>
-            <div class="card p-2 d-flex bg-secondary justify-content-center flex-wrap col-3" style=" width: 350px; margin: 40px;"> <h4>FOOD BLOG</h4><img src="resources/food-blog.PNG" class=" card-img  prj-img" alt=""></div>
-            <div class="card p-2 d-flex bg-secondary justify-content-center flex-wrap col-3" style="width: 350px; margin: 40px;"> <h4>ECOMMERS WEBSITE</h4><img src="resources/street-store.PNG" class=" card-img prj-img" alt=""></div>
-            <div class="card p-2 d-flex bg-secondary justify-content-center flex-wrap col-3" style="width: 350px; margin: 40px;"> <h4>TRAVEL BLOG</h4><img src="resources/travel-blog.PNG" class=" card-img prj-img" alt=""></div>
-          </div>  
-          
-          
+    </nav>
 
-          
-
-
-        </article>
+<!-- Projects -->
+    <div class="container-fluid bg-dark expanded-lg prj-content">
+      <article class="container bg-secondary card">
+        <div class="d-flex justify-content-center row pb-5" >
+          <h1 class="p-3 text-warning">My Projects</h1>
+          <div class="card p-2 d-flex bg-dark justify-content-center flex-wrap col-3" style=" width: 350px; margin: 40px;"> <h4>FOOD BLOG</h4><img src="resources/food-blog.PNG" class=" card-img  prj-img" alt=""></div>
+          <div class="card p-2 d-flex bg-dark justify-content-center flex-wrap col-3" style="width: 350px; margin: 40px;"> <h4>ECOMMERS WEBSITE</h4><img src="resources/street-store.PNG" class=" card-img prj-img" alt=""></div>
+          <div class="card p-2 d-flex bg-dark justify-content-center flex-wrap col-3" style="width: 350px; margin: 40px;"> <h4>TRAVEL BLOG</h4><img src="resources/travel-blog.PNG" class=" card-img prj-img" alt=""></div>
+        </div>  
+      </article>
     </div>
+
+     <div class="container-fluid bg-dark expanded-lg pt-5">
+      <article class="container bg-secondary card">
+        <div class="d-flex justify-content-center row">
+          <h1 class="p-3 text-warning">Services Offered</h1>
+          <div class="card p-2 d-flex bg-dark justify-content-center flex-wrap col-3" style=" width: 350px; margin: 40px;"> <h4>UI / UX Design</h4><img src="resources/ui-ux.jpg" class=" card-img  prj-img" alt=""></div>
+          <div class="card p-2 d-flex bg-dark justify-content-center flex-wrap col-3" style="width: 350px; margin: 40px;"> <h4>Front End Web Developer</h4><img src="resources/front-end.webp" class=" card-img prj-img" alt=""></div>
+          <div class="card p-2 d-flex bg-dark justify-content-center flex-wrap col-3" style="width: 350px; margin: 40px;"> <h4>Back End Web Developer</h4><img src="resources/back-end.svg" class=" card-img prj-img" alt=""></div>
+        </div>  
+      </article>
+    </div>
+
+    <div class="container-fluid bg-dark expanded-lg  pt-5 pb-5">
+      <form action="#" method="#" class="container bg-secondary card p-5">
+
+            <table class="container row-12">
+              <h1 class="p-3 text-warning">Message me</h1>
+                <tr>
+                    <td class="col-2"><label for="first-name">First Name:</label></td>
+                    <td class="col-"><input type="text" name="first-name" id="first-name" required class="col-10 text-dark"></td>
+                </tr>
+                <tr>
+                    <td><label for="last-name">Last Name:</label></td>
+                    <td><input type="text" name="last-name" id="last-name" required class="col-10 text-dark"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" name="age" id="age" required class="col-10 text-dark"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="email" name="birthday" id="birthday" required class="col-10 text-dark"></td>
+                </tr>
+                <tr>
+                    <td><label for="sex">Sex:</label></td>
+                    <td><input type="radio" name="sex" id="male" required checked><label for="male"> Male</label>
+                        <input type="radio" name="sex" id="female"required><label for="female"> Female</label></td>
+                </tr>
+                <tr>
+                  <td><label for="message">Message:</label></td>
+                  <td>
+                    <textarea name="message" id="message" rows="10%" cols="100%" class="col-10 text-dark "></textarea>
+                  </td>
+                </tr>
+            </table>
+        </fieldset>
+        <button type="button" class="btn btn-warning" style="width: 10rem;"><a href="#" style="text-decoration: none; color:darkblue;"> Send</a></button>
+    </form>
+    </div>
+
       <footer class="socmed-container bg-body-dark d-flex justify-content-center p-4">
         <ul>
-          <li>
-            <a href="https://www.facebook.com/jayson.herrera.3344" target="_blank">
-              <i class="fab fa-facebook-f icon"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/herrerajv_dev" target="_blank"><i class="fab fa-twitter icon"></i></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/jayson-herrera-5964ab26a/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram icon"></i></a></li>
-        </ul>
+            <li>
+              <a href="https://www.facebook.com/jayson.herrera.3344" target="_blank">
+                <i class="fab fa-facebook-f icon"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/herrerajv_dev" target="_blank"><i class="fab fa-twitter icon"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jayson-herrera-5964ab26a/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
+            <li>
+              <a href="https://www.instagram.com/jayson182005/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a></li>
+          </ul>
     </footer>
 
 

@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-</head>
+
+  </head>
   <body class="container-fliud ">
     <nav class="navbar navbar-expand-lg bg-dark fixed-top ">
         <div class="container d-flex navbar-dark">
@@ -29,7 +30,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#"></a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item " href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
@@ -40,30 +41,32 @@
     </nav>
 
     <!-- Hero Banner -->
-    <div class="container-fluid bg-dark hero-banner expanded-lg hero-banner">
+    <div class="container-fluid bg-dark expanded-lg hero-banner">
       <article class="container bg-secondary article-container card">
         <div class="d-flex flex-wrap justify-content-evenly item-conten">
           <div class="card d-flex justify-content-evenly bg-secondary p-5" style="width: 35rem; margin: 50px;">
-            <h1>Full-stack Web Developer</h1>
+            <h1 class="text-warning">Full-stack Web Developer</h1>
             <p>As a full-stack web developer, I am proficient in both front-end and back-end technologies. With a strong foundation in HTML, CSS, JavaScript, and various web frameworks, I am capable of building dynamic and responsive web applications. My experience also includes database management, API integration, and deployment on cloud platforms.</p>
             <div class="d-flex justify-content-evenly">
               <button type="button" class="btn btn-warning" style="width: 10rem;"><a href="mailto:herrerajv.dev@gmail.com" style="text-decoration: none; color:darkblue; "> Hire Me!</a></button>
               <button type="button" class="btn btn-warning" style="width: 10rem;"><a href="resources/resume.docx" download="resorces/resume.docx" style="text-decoration: none; color:darkblue;"> Download CV</a></button>
             </div>
           </div>
-          <div class="card d-flex justify-content-evenly photo bg-secondary img-fluid" style="width: 18rem; margin: 60px;">
+          <div class="card border-0 d-flex justify-content-evenly photo bg-secondary img-fluid" style="width: 18rem; margin: 60px;">
             <h1 class="name">JAYSON HERRERA</h1>
             <img src="resources/profile-img.jpg" alt="" style="border-radius: 20%;">
-            <div class="glow-wrap">
-              <i class="glow"></i>
+            <div class="glow-wrap" style="border-radius: 20%;">
+              <i class="glow " style="border-radius: 20%;"></i>
             </div>
           </div>
         </div>  
       </article>
+
+      <!-- About Me -->
       <article class="container bg-secondary article-container card mt-5 p-3">
         <div class="row">
-          <h3 class="row-7">About me</h3>
-          <section class=" col-6 ">
+          <h3 class="row-7 text-warning">About me</h3>
+          <section class="  col-6">
             <p>Joining a bootcamp on full-stack programming is an exciting opportunity for anyone looking to gain comprehensive knowledge and practical skills in web development. As a participant in this course, my primary goal is to learn the latest technologies, tools, and frameworks used in building web applications, including front-end, back-end, and database development.
               <br><br>
               I hope to gain a deep understanding of the principles of full-stack programming and how they can be applied to create functional and user-friendly websites. By the end of the course, I want to be able to develop and deploy a complete web application from scratch, using various programming languages and tools.
@@ -75,7 +78,7 @@
               In conclusion, my ultimate goal in joining a bootcamp on full-stack programming is to become a competent and confident full-stack developer capable of creating scalable and efficient web applications that meet the needs of clients and users.</p>
           </section>
           <aside class="col-6">
-            <h3> Bio</h3>
+            <h3 class="text-warning"> Bio</h3>
             <div class="row">
               <div class="col-3"><i class="fa-regular fa-calendar-check"></i> &nbsp; Age:</div>
               <div class="col">32</div>
@@ -92,17 +95,42 @@
               <div class="col-3"><i class="fa-solid fa-location-dot"></i> &nbsp; Address:</div>
               <div class="col">Balubad Street, Brangay Nangka, Marikina City, 1808, Philippines.</div>
             </div>
-          
-
-
           </aside>
         </div>
       </article>
+      <article class="container d-flex bg-secondary card mt-5 p-3">
+        
+          <h2 class="text-warning m-3 ">My Skills</h2>
+          <div class="container m-3">
+            <p>HTML</p> 
+            <div class="progress" style="width: 80%;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%"></div>
+            </div>
+            <br/>
+            <p>CSS</p> 
+            <div class="progress" style="width: 80%;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:60%"></div>
+            </div>
+            <br/>
+            <p>JAVA SCRIPT</p> 
+            <div class="progress " style="width: 80%;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:40%"></div>
+            </div>
+            <br/>
+            <p>PHOTOSHOP</p> 
+            <div class="progress" style="width: 80%;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:90%"></div>
+            </div>
+            <br/>
+            <p>C#</p> 
+            <div class="progress" style="width: 80%;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:30%"></div>
+            </div>
+            <br/>
+          </div>
+          
+      </article>
     </div>
-    
-      
-    </div>
-
 
       <footer class="socmed-container bg-body-dark d-flex justify-content-center p-4">
         <ul>
@@ -116,7 +144,7 @@
             <li>
               <a href="https://www.linkedin.com/in/jayson-herrera-5964ab26a/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
             <li>
-              <a href="https://www.instagram.com/jayson182005/"><i class="fa-brands fa-instagram icon"></i></a></li>
+              <a href="https://www.instagram.com/jayson182005/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a></li>
           </ul>
     </footer>
 
